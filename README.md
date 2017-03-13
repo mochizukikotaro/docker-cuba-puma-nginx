@@ -1,8 +1,7 @@
 # Usage
 
 ```
-$ git clone git@github.com:mochizukikotaro/docker-cuba-puma-nginx.git
-$ cd docker-cuba-puma-nginx
+$ git clone git@github.com:mochizukikotaro/docker-cuba-puma-nginx.git && cd $(basename $_ .git)
 $ docker-compose build
 $ docker-compose up
 ```
